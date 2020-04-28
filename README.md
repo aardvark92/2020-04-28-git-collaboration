@@ -14,3 +14,4 @@
     - `git checkout -b <branch_name>`: old way
 
 - `git stash`: temporarily store updates
+    - `git stash list`: show list of stashes
