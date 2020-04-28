@@ -15,3 +15,5 @@
 
 - `git stash`: temporarily store updates
     - `git stash list`: show list of stashes
+
+- `git log --oneline --graph --decorate --all`: see a list of commits
