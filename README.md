@@ -1,4 +1,4 @@
-# 2020-04-28 Git Collaboration webinar
+# 2020/04/28 Git Collaboration
 
 - `git clone <URL>`: downloads the repository from the web to our computer
     - Make sure you don't nest this command in another repository
@@ -15,8 +15,6 @@
 
 - `git stash`: temporarily store updates
     - `git stash list`: show list of stashes
-
-- `git log --oneline --graph --decorate --all`: see a list of commits
 
 ## Pull requests (online merge)
 
