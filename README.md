@@ -17,3 +17,13 @@
     - `git stash list`: show list of stashes
 
 - `git log --oneline --graph --decorate --all`: see a list of commits
+
+## Pull requests (online merge)
+
+- `git push origin <branch_name>`: pushes branch to remote
+    - this is where you will create the pull request (online)
+    - you merge the PR (and also the branch) by accepting and merging the PR
+- don't forget to clean up your branches
+- `git fetch --prune`: cleans up the references in your git log
+- `git branch -d <branch_name>`: deletes the branch on your local machine
+    - it will tell you to move to another branch first, if you're in that branch
