@@ -1,4 +1,4 @@
-# 2020/04/28 Git Collaboration
+# 2020-04-28 Git Collaboration
 
 - `git clone <URL>`: downloads the repository from the web to our computer
     - Make sure you don't nest this command in another repository
@@ -25,3 +25,9 @@
 - `git fetch --prune`: cleans up the references in your git log
 - `git branch -d <branch_name>`: deletes the branch on your local machine
     - it will tell you to move to another branch first, if you're in that branch
+
+## Rebasing or incorporating branch updates
+
+- `git rebase <branch>`: if `branch` is `master`, replay the current branch off of master
+    - will auto merge if possible
+    - potentially deal with conflicts
