@@ -12,3 +12,5 @@
 
 - `git switch -c <branch_name>`: create and move in one command
     - `git checkout -b <branch_name>`: old way
+
+- `git stash`: temporarily store updates
